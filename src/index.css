@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+#root {
+  height: 100vh;
+  --red: red;
+  --separator-border: var(--red) ;
+}
+
+@theme {
+  --color-low-border: var(--separator-border);
+}
