@@ -2,8 +2,11 @@
 
 #root {
   height: 100vh;
-  --red: red;
-  --separator-border: var(--red) ;
+}
+
+:root {
+  --red: #ccc;
+  --separator-border: var(--red) !important;
 }
 
 @theme {
